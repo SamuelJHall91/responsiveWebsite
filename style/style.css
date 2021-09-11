@@ -1,0 +1,129 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    border-bottom: 1px solid seashell;
+    height: 69;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+}
+
+
+.logo {
+    height: 50px;
+    float: left;
+    padding: 10px 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    color: seashell;
+}
+
+.navigation li {
+    text-decoration: underline;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.mission-container {
+    background-image: url('/resources/background.JPEG');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1000px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+
+}
+
+.month-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    margin: 40px auto 40px auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tea-month {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.imgtag {
+    margin-top: 0px;
+}
+
+.locations-container {
+    background-image: url('/resources/locations.JPEG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+   
+}
+
+.location-text {
+}
+
+.location-boxes {
+    width: 1200px;
+}
+
+.location {
+    display: inline-block;
+    width: 300px;
+    background-color: black;
+    margin: 15px;
+    margin-bottom: auto;
+    opacity: 0.8;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin: 20px;
+}
+
+
+
+
+
+
+
